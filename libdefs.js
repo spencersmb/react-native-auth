@@ -7,4 +7,5 @@ declare module 'react-native' {
 	declare export var Image: any
 	declare export var ScrollView: any
 	declare export var Linking: any
+	declare export var ActivityIndicator: any
 }

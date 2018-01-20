@@ -4,7 +4,15 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios",
+    "ios-min": "react-native run-ios --simulator 'iPhone 5s'",
+    "ios-mid": "react-native run-ios --simulator 'iPhone 8 Plus'",
     "ios-max": "react-native run-ios --simulator 'iPhone X'",
+    "ipad": "react-native run-ios --simulator 'iPad Air'",
+    "ios-device": "react-native run-ios --device",
+    "android-min": "react-native run-android",
+    "android-max": "react-native run-android",
+    "android-release": "react-native run-android --variant=release",
     "test": "jest",
     "flow": "flow"
   },
@@ -14,6 +22,7 @@
     "babel-preset-flow": "^6.23.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.5.1",
+    "firebase": "^4.9.0",
     "react": "16.2.0",
     "react-native": "0.52.0"
   },
