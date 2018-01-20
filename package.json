@@ -1,0 +1,51 @@
+{
+  "name": "auth",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios-max": "react-native run-ios --simulator 'iPhone X'",
+    "test": "jest",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "react": "16.2.0",
+    "react-native": "0.52.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.15.0",
+    "flow": "^0.2.3",
+    "flow-bin": "^0.63.1",
+    "jest": "22.1.2",
+    "react-test-renderer": "16.2.0",
+    "standard": "^10.0.3",
+    "standard-flow": "^1.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/**"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-native"
+    ]
+  }
+}

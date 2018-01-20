@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "eslint-plugin-react"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "space-before-function-paren": "error",
+    "react/jsx-uses-vars": 1,
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "indent": [
+      2,
+      "tab"
+    ],
+    "no-tabs": 0
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
